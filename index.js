@@ -5,7 +5,9 @@ function Scooter(year,color,model) {
 }
 
 function Driver() {
-  
+  this.year = year;
+  this.color = color;
+  this.model = model;
 }
 
 function PickupLocation() {
